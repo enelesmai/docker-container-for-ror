@@ -8,8 +8,8 @@ This project is an empty RoR API application ready to use, which was created und
 
 ## Built With
 
-- Ruby 2.6.6,
-- Rails 6.1.3,
+- Ruby 2.6.6
+- Rails 6.1.3
 - Postgres 1.1
 - Docker 3.1
 
@@ -31,28 +31,34 @@ Follow the instructions to install docker from [Docker hub](https://docs.docker.
 
 - Verify Docker Engine is installed correctly by running the `hello-world` image.
 
-        sudo docker run hello-world
+        # Verify Docker Engine is installed correctly
+        $ sudo docker run hello-world
 
 ### Setup
 - Clone this repository to your local machine.
 
-        git clone git@github.com:enelesmai/docker-container-for-ror.git
+        # Clone the repository
+        $ git clone git@github.com:enelesmai/docker-container-for-ror.git
 
 ### Usage
 To get the container up just type the next command in your terminal
 
+    # Start the container
     $ sudo docker-compose up -d
 
 To verify the container is running type
     
+    # Show the docker services currently running 
     $ sudo docker ps
 
 To see the logs emmited by the services
 
-    $sudo docker logs -f
+    # Show the logs emmited by the services
+    $ sudo docker logs -f
 
 To check the application in your browser go to
 
+    # Show the empty Rails API
     http://localhost:3000
 
 ### Run tests
@@ -65,7 +71,7 @@ To check the application in your browser go to
 
 ## Authors
 
-👤 **Author1**
+👤 **Xóchitl Selene Flores Pérez**
 
 - Github: [@enelesmai](https://github.com/enelesmai)
 - Twitter: [@enelesmai](https://twitter.com/enelesmai)

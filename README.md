@@ -1,16 +1,17 @@
-# Project Name
+# Docker Container Config for RoR
 
-> One paragraph statement about the project.
+> A docker container configuration for a Ruby on Rails application ready to use ;)
 
-![screenshot](./app_screenshot.png)
+![image](https://user-images.githubusercontent.com/5160907/110696898-43b40d80-81b1-11eb-9d15-049e6470bd28.png)
 
-Additional description about the project and its features.
+This project is an empty RoR API application ready to use, which was created under a docker container. You will be able to run the app by setting up the container.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- Ruby 2.6.6,
+- Rails 6.1.3,
+- Postgres 1.1
+- Docker 3.1
 
 ## Live Demo
 
@@ -19,23 +20,46 @@ Additional description about the project and its features.
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+- Docker (last-version)
 
-### Setup
+Follow the instructions to install docker from [Docker hub](https://docs.docker.com/get-docker/), depending on the operating system you have.
 
 ### Install
 
+- Verify Docker Engine is installed correctly by running the `hello-world` image.
+
+        sudo docker run hello-world
+
+### Setup
+- Clone this repository to your local machine.
+
+        git clone git@github.com:enelesmai/docker-container-for-ror.git
+
 ### Usage
+To get the container up just type the next command in your terminal
+
+    $ sudo docker-compose up -d
+
+To verify the container is running type
+    
+    $ sudo docker ps
+
+To see the logs emmited by the services
+
+    $sudo docker logs -f
+
+To check the application in your browser go to
+
+    http://localhost:3000
 
 ### Run tests
+    Not Implemented
 
 ### Deployment
+    Not Implemented
 
 
 
@@ -43,15 +67,10 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@enelesmai](https://github.com/enelesmai)
+- Twitter: [@enelesmai](https://twitter.com/enelesmai)
+- Linkedin: [in/xochitlselene](https://linkedin.com/in/xochitlselene)
 
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -65,9 +84,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- [Docker/docs](https://docs.docker.com/)
+- [Juan Vqz Youtube Channel - Primeros pasos en Docker...](https://www.youtube.com/channel/UC9bsDBNvCZEEjrjFdFLtIYA)
+- Ode to my Family <3
 
 ## 📝 License
 

@@ -13,12 +13,7 @@ This project is an empty RoR API application ready to use, which was created und
 - Postgres 1.1
 - Docker 20.10.5
 
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
+# Getting Started
 
 To get a local copy up and running follow these simple example steps.
 

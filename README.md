@@ -11,7 +11,7 @@ This project is an empty RoR API application ready to use, which was created und
 - Ruby 2.6.6
 - Rails 6.1.3
 - Postgres 1.1
-- Docker 3.1
+- Docker 20.10.5
 
 ## Live Demo
 
@@ -23,7 +23,7 @@ This project is an empty RoR API application ready to use, which was created und
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-- Docker (last-version)
+- Docker (current last version: 20.10.5)
 
 Follow the instructions to install docker from [Docker hub](https://docs.docker.com/get-docker/), depending on the operating system you have.
 
